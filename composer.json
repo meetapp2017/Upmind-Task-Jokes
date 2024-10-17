@@ -1,0 +1,24 @@
+{
+    "name": "mehmedov/jokes",
+    "description": "A package for jokes.",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Mehmedov\\Jokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mehmedov\\Tests\\": "Tests/" 
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "psr/log": "^2.0",
+        "monolog/monolog": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
